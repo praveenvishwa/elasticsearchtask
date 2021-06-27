@@ -1,0 +1,59 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ElasticSearchTask</groupId>
+  <artifactId>ElasticSearchTask</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>        
+       <dependency>
+        <groupId>org.elasticsearch.client</groupId>
+        <artifactId>elasticsearch-rest-high-level-client</artifactId>
+        <version>7.9.2</version>
+    </dependency>
+    
+    <dependency>
+        <groupId>org.elasticsearch.client</groupId>
+        <artifactId>elasticsearch-rest-client</artifactId>
+        <version>7.9.2</version>
+    </dependency>
+    
+    <dependency>
+    <groupId>org.elasticsearch</groupId>
+    <artifactId>elasticsearch</artifactId>
+    <version>7.13.2</version>
+    </dependency>
+    
+    <dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-core</artifactId>
+    <version>2.12.3</version>
+    </dependency>
+    
+    <dependency>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.11.1</version>
+</dependency>
+
+<dependency>
+    <groupId>org.quartz-scheduler</groupId>
+    <artifactId>quartz</artifactId>
+    <version>2.3.2</version>
+</dependency>
+
+<dependency>
+    <groupId>org.quartz-scheduler</groupId>
+    <artifactId>quartz-jobs</artifactId>
+    <version>2.3.2</version>
+</dependency>
+
+<dependency>
+    <groupId>quartz</groupId>
+    <artifactId>quartz</artifactId>
+    <version>1.5.2</version>
+</dependency>
+
+</dependencies>
+  
+</project>
+
